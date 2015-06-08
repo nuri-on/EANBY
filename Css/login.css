@@ -1,0 +1,32 @@
+@CHARSET "EUC-KR";
+
+body {font-family:Arial }
+
+#enterLogo {
+ position: absolute;
+ text-align: center;
+ left: 28%;
+ top: 30%;
+ margin: -120px auto 0 -130px; /* value of top margin: height of the image divide by 2 (ie: 240 / 2), value of left margin: width of the image divide by 2 (ie: 260 / 2) */
+ width: 260px; /* same as the image width */
+ }
+
+#enterForm {
+ position: absolute;
+ text-align: center;
+ left: 45%;
+ top: 71%;
+ margin: -120px auto 0 -130px; /* value of top margin: height of the image divide by 2 (ie: 240 / 2), value of left margin: width of the image divide by 2 (ie: 260 / 2) */
+ width: 400px; /* same as the image width */
+ }
+
+#enterLogo span a {
+ display: block;
+ width: 1000px;
+ height: 300px;
+ margin: 0 auto;
+ position: relative;
+ background: transparent url(../Image/main_logo.png) 0 0 no-repeat;
+ text-indent: -5000em;
+ outline: 0;
+ }
